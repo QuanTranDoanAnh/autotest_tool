@@ -1,0 +1,47 @@
+{
+  "name": "fpt-auto-test-tool",
+  "productName": "FptAutoTestTool",
+  "version": "1.0.0",
+  "description": "Fpt Auto test Tool",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "webpack --config webpack.common.js --watch"
+  },
+  "repository": {},
+  "keywords": [
+    "automated testing tool",
+    "electron",
+    "react"
+  ],
+  "author": "Tran Doan Anh Quan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "dotenv-webpack": "^8.0.1",
+    "electron": "^26.3.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "prettier": "^3.0.3",
+    "sass": "^1.69.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "bootstrap": "^4.5.2",
+    "firebase": "^7.19.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.47.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.16.0",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2"
+  }
+}
